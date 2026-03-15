@@ -1,1 +1,1 @@
-# League of Legends 2024 Wins Analysis
+# League of Legends 2024 Sides Analysis

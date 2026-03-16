@@ -190,7 +190,7 @@ A permutation test with 500 repetitions was used. In each repetition, the `side`
   frameborder="0"
 ></iframe>
  
-The observed difference came out to **0.0576** with a **p-value of 0.0000**. With a p-value of essentially 0, we reject the null hypothesis at the 0.05 significance level. The observed 5.76 percentage point win rate gap between Blue and Red side is extremely unlikely to occur by random chance alone. This is strong evidence that Blue side has a real structural advantage in professional 2024 League of Legends. That said, we cannot conclude with absolute certainty that Blue side always wins more as this is an observational study, not a controlled experiment, and other factors could be contributing to the pattern.
+The observed difference came out to **0.0576** with a **p-value of 0.0040**. With a p-value of essentially 0, we reject the null hypothesis at the 0.05 significance level. The observed 5.76 percentage point win rate gap between Blue and Red side is extremely unlikely to occur by random chance alone. This is strong evidence that Blue side has a real structural advantage in professional 2024 League of Legends. That said, we cannot conclude with absolute certainty that Blue side always wins more as this is an observational study, not a controlled experiment, and other factors could be contributing to the pattern.
  
 ---
  

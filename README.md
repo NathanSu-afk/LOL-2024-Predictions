@@ -203,6 +203,7 @@ Building on the patterns found in the EDA, the prediction problem is:
 This is a **binary classification** problem, predicting `result` where 1 = Win and 0 = Loss. The response variable `result` was chosen because it is the only outcome that truly matters in a game of League of Legends, with every game has exactly one winner and one loser, making the classes perfectly balanced with no need to worry about any class imbalance.
  
 For the baseline model, I predict thje outcome based on the 25 minute mark. However, for the final model, I also end up predicting the outcome based on the total dragons and barons taken on each side. The times that these happen vary depending on the game, making it potentially biased. However, this is still a useful model in interpreting what features determine a win the most.
+
 ---
  
 ## Baseline Model

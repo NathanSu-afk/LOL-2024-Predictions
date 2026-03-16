@@ -219,7 +219,7 @@ The baseline model is a **Random Forest Classifier** implemented in a single `sk
  
 `GridSearchCV` with 5-fold cross-validation was used to find the best `max_depth` from the values [2, 4, 5, 6, 7, 9, 10]. The best `max_depth` was **7**, with a best CV accuracy of **0.8513** and a test accuracy of **0.8491**.
  
-For a two-feature model, 84.9% test accuracy is a great starting point. Permutation importance tests confirmed that `golddiffat25` is by far the more important feature because shuffling it caused accuracy to drop all the way to **58.96%**, essentially near chance. Shuffling `firstbaron` only dropped accuracy to **79.27%**, meaning it adds value but is largely secondary to gold advantage. This makes sense because gold difference captures a broad picture of who is winning across the whole game, while first baron is just one binary event and is also somewhat tied to golddiff because it gives the team buffs and more gold.
+For a two-feature model, 84.9% test accuracy is a great starting point. Permutation importance tests confirmed that `golddiffat25` is by far the more important feature because shuffling it caused accuracy to drop all the way to **58.96%**, essentially near chance. Shuffling `firstbaron` only dropped accuracy to **79.27%**, meaning it adds value but is largely secondary to gold advantage, possibly being overshadowed. This makes sense because gold difference captures a broad picture of who is winning across the whole game, while first baron is just one binary event and is also somewhat tied to golddiff because it gives the team buffs and more gold.
  
 ---
  
